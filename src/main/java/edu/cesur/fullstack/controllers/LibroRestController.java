@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
-import edu.cesur.fullstack.Services.LibroService;
 import edu.cesur.fullstack.dtos.LibroDTO;
+import edu.cesur.fullstack.services.LibroService;
 
 @RestController
 @RequestMapping("/libros")

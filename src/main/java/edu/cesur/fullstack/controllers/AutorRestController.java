@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
-import edu.cesur.fullstack.Services.AutorService;
 import edu.cesur.fullstack.dtos.AutorDTO;
+import edu.cesur.fullstack.services.AutorService;
 
 @RestController
 @RequestMapping("/autores")

@@ -1,4 +1,4 @@
-package edu.cesur.fullstack.Services;
+package edu.cesur.fullstack.services;
 
 import java.util.List;
 

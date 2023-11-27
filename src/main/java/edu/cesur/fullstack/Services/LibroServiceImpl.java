@@ -1,6 +1,7 @@
-package edu.cesur.fullstack.Services;
+package edu.cesur.fullstack.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import edu.cesur.fullstack.dtos.LibroDTO;
 import edu.cesur.fullstack.mappers.LibroMapper;
@@ -10,6 +11,7 @@ import edu.cesur.fullstack.persistence.repositories.AutorRepository;
 import edu.cesur.fullstack.persistence.repositories.LibroRepository;
 import jakarta.transaction.Transactional;
 
+@Service
 public class LibroServiceImpl implements LibroService {
 
 	@Autowired

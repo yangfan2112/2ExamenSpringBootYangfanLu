@@ -1,14 +1,16 @@
-package edu.cesur.fullstack.Services;
+package edu.cesur.fullstack.services;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import edu.cesur.fullstack.dtos.AutorDTO;
 import edu.cesur.fullstack.mappers.AutorMapper;
 import edu.cesur.fullstack.persistence.entities.AutorEntity;
 import edu.cesur.fullstack.persistence.repositories.AutorRepository;
 
+@Service
 public class AutorServiceImpl implements AutorService{
 
 	@Autowired
