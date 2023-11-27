@@ -1,5 +1,7 @@
 package edu.cesur.fullstack.mappers;
 
+import java.util.List;
+
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 
@@ -11,7 +13,6 @@ public interface AutorMapper {
 
 	AutorDTO toDto(AutorEntity autor);
 	AutorEntity toEntity(AutorDTO autorDTO);
+	List<AutorDTO> mapEntityListToDToList(List<AutorEntity> autores);
 	
-	@Mapping(target = "libros", ignore = true)
-    AutorDTO toDtoWithoutLibros(AutorEntity autor);
 }
